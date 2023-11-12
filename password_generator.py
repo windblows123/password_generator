@@ -22,5 +22,5 @@ def generate_password(length, chars):
     return password
 
 amount_of_passwords, length = int(input('Введите количество паролей\n')), int(input('Введите длину пароля\n'))
-for _ in range(amount_of_passwords):
+for pasw in range(amount_of_passwords):
     print(generate_password(length, chars))
